@@ -19,3 +19,24 @@
     margin: 0 auto;
   }
 }
+@media all and (max-width: ４８０px){
+  .top-wrapper{
+    max-width: 100%;
+  }
+  .profile{
+    flex-direction: column;
+    display: inline-block;
+  }
+  .profile-image{
+    margin: 0 auto;
+  }
+  .profile-text{
+    margin: 0 auto;
+  }
+  .skills{
+    flex-direction: column;
+  }
+  .skill{
+    margin: 0 auto;
+  }
+}
