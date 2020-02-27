@@ -1,4 +1,4 @@
-@media screen and (max-width: 480px){
+@media all and (max-width: 670px){
   .top-wrapper{
     max-width: 100%;
   }
