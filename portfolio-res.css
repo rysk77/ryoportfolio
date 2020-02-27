@@ -1,25 +1,4 @@
-@media all and (max-width: 670px){
-  .top-wrapper{
-    max-width: 100%;
-  }
-  .profile{
-    flex-direction: column;
-    display: inline-block;
-  }
-  .profile-image{
-    margin: 0 auto;
-  }
-  .profile-text{
-    margin: 0 auto;
-  }
-  .skills{
-    flex-direction: column;
-  }
-  .skill{
-    margin: 0 auto;
-  }
-}
-@media all and (max-width: ４８０px){
+@media screen and (max-width: 600px){
   .top-wrapper{
     max-width: 100%;
   }
