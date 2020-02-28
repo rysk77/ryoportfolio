@@ -46,6 +46,7 @@ header li{
 }
 .top-wrapper h1 {
   font-size: 90px;
+  max-width: 100%;
 }
 .top-wrapper h3 {
   font-size: 60px;
