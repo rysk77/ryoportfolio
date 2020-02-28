@@ -41,6 +41,7 @@
   }
   .skill-text{
     width: 100%;
+    display: block;
   }
   .contact-wrapper iframe{
     max-width: 100%;
