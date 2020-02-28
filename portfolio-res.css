@@ -7,6 +7,8 @@
   }
   .top-wrapper{
     max-width: 100%;
+    background-image: url("background-image.jpeg");
+    background-size: cover;
   }
   .top-wrapper h1 {
     font-size: 60px;
@@ -23,15 +25,19 @@
   }
   .profile-image{
     margin: 0 auto;
+    width: 100%;
+    height: auto;
   }
   .profile-text{
     margin: 0 auto;
+    width: 100%;
   }
   .skills{
     flex-direction: column;
   }
   .skill{
     margin: 0 auto;
+    width: 100%;
   }
   .contact-wrapper iframe{
     max-width: 100%;
