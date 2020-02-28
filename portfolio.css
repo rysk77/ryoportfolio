@@ -24,13 +24,13 @@ header ul{
 }
 header a{
   color: black;
+  margin-right: 10px;
 }
 header li{
   font-size: 20px;
   padding: 0 20px;
 }
 .container {
-  max-width: 1170;
   width: 90%;
   margin: 0 auto;
   text-align: center;
@@ -46,7 +46,6 @@ header li{
 }
 .top-wrapper h1 {
   font-size: 90px;
-  max-width: 100%;
 }
 .top-wrapper h3 {
   font-size: 60px;
