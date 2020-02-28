@@ -1,129 +1,129 @@
-* {
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="portfolio-res.css">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/6e2e8dbc0e.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+        <ul>
+          <li><i class="fas fa-user"><a href="#profile">PROFILE</a></i></li>
+          <li><i class="fas fa-pencil-alt"><a href="#skills">SKILLS</a></i></li>
+          <li><i class="fas fa-envelope"><a href="#contact">CONTACT</a></i></li>
+        </ul>
+    </header>
+    <div class="top-wrapper">
+      <div class="container">
+        <h1><span>Ryo's Portfolio</span></h1>
+        <h3><span>Web Enginner</span></h3>
+      </div>
+    </div>
 
-body {
-  margin: 0;
-  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
-}
-a {
-  text-decoration: none;
-}
-header{
-  width: 100%;
-  height: 65px;
-  position:fixed;
-  top:0;
-  background-color: white;
-  border: 3px solid #f7f7f7;
-}
-header ul{
-  display: flex;
-  justify-content: center;
-  list-style: none;
-}
-header a{
-  color: black;
-  margin-right: 10px;
-}
-header li{
-  font-size: 20px;
-  padding: 0 20px;
-}
-.container {
-  width: 90%;
-  margin: 0 auto;
-  text-align: center;
-  padding: 30px 0;
-}
-.top-wrapper{
-  background-image: url("background-image.jpeg");
-  background-size: cover;
-  color: #ccffff;
-  text-align: center;
-  padding: 200px 0 200px 0;
-  max-width: 100%;
-}
-.top-wrapper h1 {
-  font-size: 90px;
-}
-.top-wrapper h3 {
-  font-size: 60px;
-}
-.top-wrapper span{
-  border-bottom: 2px solid #ccffff;
-  letter-spacing: 5px;
-  font-style: italic;
-}
-.section-title{
-  font-size: 30px;
-}
-.section-title i{
-  margin-right: 10px;
-}
-.profile-wrapper{
-  background-color: #f7f7f7;
-}
-.profile{
-  display: flex;
-}
-.profile-image{
-  width: 33%;
-  height: auto;
-}
-.profile-image img{
-  max-width: 100%;
-  height: auto;
-}
-.profile-text{
-  width: 66%;
-  height: auto;
-}
-.profile-text h4{
-  font-size: 30px;
-}
-.text-container{
-  display: inline-block;
-  width: 80%;
-  margin: 0 auto;
-}
-.skills{
-  display:flex;
-}
-.skill{
-  width: 33%;
-}
-.skill-icon i{
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 10px;
-}
-.skill-text{
-  width: 80%;
-  display: inline-block;
-}
-.stars{
-  display: flex;
-  justify-content: center;
-}
-.contact-wrapper{
-  background-color: #f7f7f7;
-}
-.contact-wrapper iframe{
-  margin: 0 auto;
-}
-.contact-wrapper a{
-  display: block;
-  color: black;
-  font-size: 20px;
-}
-.contact-wrapper span{
-  border-bottom: 2px solid black;
-}
-.contact-wrapper p{
-  font-size: 20px;
-}
-.footer{
-  background-color: black;
-  color: white;
-}
+    <div id="profile" class="profile-wrapper">
+      <div class="container">
+        <div class="section-title">
+          <h2><i class="fas fa-user"></i>PROFILE</h2>
+        </div>
+          <div class="profile">
+            <div class="profile-image">
+              <img src="profile-image.png" alt="">
+            </div>
+            <div class="profile-text">
+              <div class="text-container">
+                <h4>ABOUT ME</h4>
+                <p>はじめまして。大学４年生駆け出しエンジニアのりょうです。</p>
+                <p>知的好奇心が強く、新しいことへの挑戦が好きです。</p>
+                <p>エンジニアの仕事と副業に興味を持ちプログラミングの学習を始めました。</p>
+                <p>スキルアップと経験を積むため日々精進しています。</p>
+                <p>物事を明瞭に素早く理解し、迅速に行動することが得意です。</p>
+                <p>このポートフォリオもプログラミング学習開始から2週間で作成しました。</p>
+                <p>筋トレとプロ野球観戦、ドライブが趣味です。</p>
+                <h4>対応可能案件</h4>
+                <p>LP制作</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div id="skills" class="skills-wrapper">
+      <div class="container">
+        <div class="section-title">
+          <h2><i class="fas fa-pencil-alt"></i>SKILLS</h2>
+        </div>
+        <div class="skills">
+          <div class="skill">
+            <div class="skill-icon">
+              <i class="fab fa-html5 fa-5x"></i>
+            </div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <h1>HTML</h1>
+            <div class="skill-text">
+              <p>Webサイトを作る際に情報構造を定義するための最も基本的な言語。</p>
+              <p>基本的なことは一通りできます。</p>
+            </div>
+          </div>
+          <div class="skill html">
+            <div class="skill-icon">
+              <i class="fab fa-css3-alt fa-5x"></i>
+            </div>
+            <div class="stars css">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <h1>CSS</h1>
+            <div class="skill-text">
+              <p>HTMLと組み合わせて使用するWebサイトのスタイルを指定するための言語。</p>
+              <p>基本的なことは一通りできます。</p>
+            </div>
+          </div>
+          <div class="skill js">
+            <div class="skill-icon">
+              <i class="fab fa-js-square fa-5x"></i>
+            </div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <h1>JavaScript</h1>
+            <div class="skill-text">
+              <p>Webサイトにさまざまな動きをつける言語。</p>
+              <p>基本的なことは一通りできます。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact" class="contact-wrapper">
+      <div class="container">
+        <div class="section-title">
+          <h2><i class="fas fa-envelope"></i>CONTACT</h2>
+        </div>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSebpdKCjt76A4HRqzeaWJ61QGcVS5pl7NRpAaePujSuU13F0w/viewform?embedded=true" width="640" height="780" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+        <a href="https://twitter.com/ryowork7"><span><i class="fab fa-twitter"></i>twitterはこちら</span></a>
+        <p>お気軽にDMして下さい</p>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <p>Copyright (C) 2020 Ryosuke Shimizu. all rights reserved.</p>
+      </div>
+    </div>
+  </body>
+</html>
