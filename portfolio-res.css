@@ -31,6 +31,10 @@
   .text-container{
     width: 100%;
   }
+  .profile-text{
+    margin: 0 auto;
+    width: 90%;
+  }
   .profile-text p{
     text-align: left;
   }
@@ -42,7 +46,7 @@
     width: 100%;
   }
   .skill-text{
-    width: 85%;
+    width: 90%%;
   }
   .contact-wrapper iframe{
     max-width: 100%;
