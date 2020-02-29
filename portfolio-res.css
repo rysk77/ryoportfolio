@@ -7,14 +7,12 @@
   }
   .top-wrapper{
     max-width: 100%;
-    background-image: url("background-image.jpeg");
-    background-size: cover;
   }
   .top-wrapper h1 {
-    font-size: 60px;
+    font-size: 45px;
   }
   .top-wrapper h3 {
-    font-size: 45px;
+    font-size: 15px;
   }
   .section-title{
     font-size: 20px;
@@ -38,6 +36,9 @@
   }
   .profile-text p{
     text-align: left;
+  }
+  .LP{
+    text-align: center;
   }
   .skills{
     flex-direction: column;
