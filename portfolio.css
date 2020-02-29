@@ -41,14 +41,14 @@ header li{
   background-size: cover;
   color: #ccffff;
   text-align: center;
-  padding: 200px 0 200px 0;
+  padding: 100px 0 100px 0;
   max-width: 100%;
 }
 .top-wrapper h1 {
-  font-size: 90px;
+  font-size: 60px;
 }
 .top-wrapper h3 {
-  font-size: 60px;
+  font-size: 20px;
 }
 .top-wrapper span{
   border-bottom: 2px solid #ccffff;
