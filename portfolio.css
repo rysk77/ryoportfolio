@@ -82,6 +82,9 @@ header li{
 .profile-text h4{
   font-size: 30px;
 }
+.profile-text p{
+  text-align: left;
+}
 .text-container{
   display: inline-block;
   width: 80%;
@@ -101,6 +104,7 @@ header li{
 .skill-text{
   width: 80%;
   display: inline-block;
+  text-align: left;
 }
 .stars{
   display: flex;
