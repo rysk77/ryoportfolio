@@ -15,14 +15,14 @@
     font-size: 15px;
   }
   .section-title{
-    font-size: 25px;
+    font-size: 20px;
   }
   .profile{
     flex-direction: column;
     display: inline-block;
   }
   .profile-text h4{
-    font-size: 20px;
+    font-size: 15px;
   }
   .profile-image{
     margin: 0 auto;
@@ -51,7 +51,7 @@
     width: 100%;
   }
   .skill h1{
-    font-size: 20px;
+    font-size: 15px;
   }
   .skill-text{
     width: 90%%;
