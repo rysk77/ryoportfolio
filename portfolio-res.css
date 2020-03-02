@@ -22,7 +22,7 @@
     display: inline-block;
   }
   .profile-text h4{
-    font-size: 15px;
+    font-size: 18px;
   }
   .profile-image{
     margin: 0 auto;
@@ -34,7 +34,7 @@
     margin: 0 auto;
   }
   .profile-text{
-    margin: 20px auto;
+    margin: 25px auto;
     width: 90%;
   }
   .profile-text p{
@@ -51,7 +51,7 @@
     width: 100%;
   }
   .skill h1{
-    font-size: 15px;
+    font-size: 18px;
   }
   .skill-text{
     width: 90%%;
